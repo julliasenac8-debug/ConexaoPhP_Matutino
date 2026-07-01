@@ -5,7 +5,7 @@ $senha = "senac";
 $banco = "db_php";
 $porta = "3307";
 
-$conexao = mysqli_connect(
+$conexao = new mysqli(
 $host, 
 $usuario,
 $senha,
@@ -13,7 +13,7 @@ $banco,
 $porta
 );
 
-if($conexao->connect_errno) {
+if($conexao->connect_error) {
     die("Erro ao conectar com o banco de dados".$conexao->connect_error);
 }
 
