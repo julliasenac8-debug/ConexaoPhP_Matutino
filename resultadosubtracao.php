@@ -22,7 +22,7 @@
         $num2 = $_POST['numero2'];
         $subtracao= $num1 - $num2;
 
-        $sql = "INSERT INTO multiplicacao (numero1, numero2, resultado) 
+        $sql = "INSERT INTO subtracao (numero1, numero2, resultado) 
 VALUES ($num1, $num2, $subtracao)";
 
         $conexao->query($sql);
