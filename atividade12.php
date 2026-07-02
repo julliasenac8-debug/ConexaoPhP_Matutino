@@ -1,6 +1,5 @@
 <?php 
 
-
 include("conexao.php");
 
 $numero1 = 10;
@@ -21,10 +20,4 @@ if ($conexao->query($sql)){
 }else{
     echo"<br>Erro ao salvar";
 }
-
-
-
-
-
-
 ?>
