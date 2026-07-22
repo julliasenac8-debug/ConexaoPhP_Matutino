@@ -1,8 +1,10 @@
 <?php 
 include ("banco.php");
 
-$idade = $_POST['idade'];
+$id = $_POST['id'];
+
 $nome = $_POST['nome']; 
+$idade = $_POST['idade'];
 $email = $_POST['email'];
 $telefone = $_POST['telefone'];
 $cidade = $_POST['cidade'];

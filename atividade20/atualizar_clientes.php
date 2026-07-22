@@ -11,14 +11,14 @@ $telefone = $_POST['telefone'];
 $cidade = $_POST['cidade'];
 
 $sql = "UPDATE form SET
-nome = '$nome';
-idade = '$idade';
-email = '$email';
-telefone = '$telefone';
+nome = '$nome',
+idade = '$idade',
+email = '$email',
+telefone = '$telefone',
 cidade = '$cidade' WHERE id = $id ";
 
 if($conexao->query($sql)){
-header("lacation:listar_cliente.php");
+header("location:listar_clientes.php");
 
 exit();
 }else {
