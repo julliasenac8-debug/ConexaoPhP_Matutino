@@ -1,0 +1,31 @@
+body{
+
+    background-color: rgb(245, 240, 240);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    
+}
+
+h1{
+   text-align: center;
+
+}
+
+form {
+    background-color: rgb(235, 186, 177);
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    
+    
+}
+
+button{
+   width: 100%;
+   margin-top: 20px;
+
+}
